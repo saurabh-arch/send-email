@@ -67,3 +67,7 @@ All config related info are stored in
 ```
 /send-email/config/config.go
 ```
+
+## Few Additional Points
+---
+1. As of now, the log output is being directed to stdout but we can direct it to syslog/system.log file or any custom file like send-email.log. The code for the same is kept as commented in "/send-email/logger/logger.go"
